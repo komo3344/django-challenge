@@ -100,7 +100,7 @@ WSGI_APPLICATION = 'config.wsgi.application'
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "HOST": "postgres.c35gwlr0mzez.ap-northeast-2.rds.amazonaws.com",
+        "HOST": "172.31.16.93",
         "NAME": "postgres",
         "USER": "postgres",
         "PASSWORD": "qwer1234!",
